@@ -5,8 +5,15 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp1"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
+        Title="MainWindow" Height="700.424" Width="840">
+    <Grid Margin="0,0,-8,-31">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0*"/>
+            <ColumnDefinition Width="9*"/>
+            <ColumnDefinition Width="13*"/>
+        </Grid.ColumnDefinitions>
+        <ContentControl Name="ButtonContent" Grid.ColumnSpan="3" Content="" HorizontalAlignment="Left" Margin="42,10,0,0" VerticalAlignment="Top" Width="317" Height="52"/>
+        <ContentControl Name="MainContent" Grid.ColumnSpan="3" Content="" HorizontalAlignment="Left" Margin="42,67,0,0" VerticalAlignment="Top" Width="728" Height="525"/>
+
     </Grid>
 </Window>
